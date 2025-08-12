@@ -1,0 +1,40 @@
+body{
+    background-color: hsl(280,60%, 30%);
+    font-size: 24px;
+}
+main{
+    width: 1024px;
+    margin: 40px auto;
+    background-color: hsl(280,60%, 20%);
+}
+
+section{
+    margin: 56px 0px;
+    min-height: 380px;
+    background-color: hsl(280,60%, 10%);
+    border: 1px solid hsl(280,60%, 60%);
+}
+
+    article{
+        width: 128px;
+        height: 96px;
+        background-color: hsl(280, 80%, 80%);
+    }
+
+#section1{
+    display: flex;
+    /*justify-content: star; es el predeterminado*/
+    /*justify-content: end; a la derecha*/
+    /*justify-content: center;*/
+    justify-content: space-between; /*hace un espacio en el medio*/
+    /*justify-content: space-evenly;lo mismo pero menos espacio*/
+    /*justify-content: space-around; menos espacio*/
+
+    /*eje vertical lo mismo pero con align-items:*/
+    align-items: center;
+}
+
+#section2{
+    display: flex;
+    justify-content: space-between;
+}
