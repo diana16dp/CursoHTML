@@ -49,12 +49,33 @@ section{
     border: px solid hsl(280,60%, 60%);
     display: flex;
     justify-content: space-between;
+    
+}
+#productos {
+  /*cambiar border a gusto*/
+  border-radius: 8px;
+  /*cambiar color a gusto*/
+  border: 3px solid hsl(280,60%,60%);
+  /*cambiar padding a gusto*/
+  padding: 10px 10px;
+  
+  
 }
 
-    article{
-        width: 258px;
-        height: 315px;
-        margin: 40px;
-        background-color: #6744BA;
-    }
+#productos article{
+  /* width: 258px;
+  height: 315px;
+  margin: 40px;*/
+  /*con margin puede haber overflow*/
+  background-color: #6744BA;
+  text-align: center;
+  
+  
+
+}
+#productos img{
+  width: 250px;
+  height: 250px;
+}
+
     
